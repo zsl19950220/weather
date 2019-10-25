@@ -1,0 +1,364 @@
+body {
+    margin: 0rem;
+    padding: 0rem;
+    background-image: url(../img/底板.png)
+}
+
+ul,
+li {
+    margin: 0rem;
+    padding: 0rem;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.kong {
+    height: 0.4rem;
+    width: 100%;
+    /* background-color: yellow; */
+}
+
+
+/* 头部西安市开始 */
+
+.weather {
+    height: 100%;
+    height: 0.88rem;
+    /* background-color: aquamarine; */
+}
+
+.weather>span {
+    display: block;
+    margin: 0 auto;
+    color: #fff;
+    font-size: 0.32rem;
+    text-align: center;
+    line-height: 0.88rem;
+}
+
+
+/* 头部西安市结束 */
+
+
+/* 温度部分开始  */
+
+.wendu {
+    width: 100%;
+    height: 2.7rem;
+    padding: 0 0.24rem;
+    box-sizing: border-box;
+    /* background-color: aqua; */
+}
+
+.font-qu {
+    width: 100%;
+    height: 0.8rem;
+    font-size: 0.28rem;
+    color: #fff;
+    /* background-color: bisque; */
+    line-height: 1.2rem;
+    text-align: right;
+    overflow: hidden;
+}
+
+.dushu {
+    width: 100%;
+    height: 1.5rem;
+    /* background-color: blue; */
+    font-size: 1.2rem;
+    color: #fff;
+    text-align: right;
+    line-height: 1.5rem;
+    font-weight: 100;
+}
+
+.dushu-d-img {
+    height: 0.4rem;
+    font-size: 0.28rem;
+    color: #fff;
+    text-align: right;
+}
+
+.dushu-img {
+    height: 0.24rem;
+    width: 0.34rem;
+    float: right;
+    margin-left: 0.2rem;
+    box-sizing: border-box;
+}
+
+.dushu-img>img {
+    width: 100%;
+}
+
+
+/* 温度部分结束 */
+
+
+/* 星期开始 */
+
+.xingqi {
+    height: 0.61rem;
+    width: 100%;
+    padding: 0 0.24rem;
+    box-sizing: border-box;
+    color: #fff;
+    border-bottom: 0.01rem solid #6963f1;
+}
+
+.xingqi>.span1 {
+    font-size: 0.34rem;
+}
+
+.xingqi>.span2 {
+    font-size: 0.24rem;
+    margin-left: 0.4rem;
+}
+
+
+/* 星期结束 */
+
+
+/* 24小时预报开始 */
+
+.time-weather {
+    margin-top: 0.3rem;
+    padding: 0 0.24rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    padding-bottom: 0.48rem;
+    /* background-color: brown; */
+    border-bottom: 0.01rem solid #6963f1;
+}
+
+.time {
+    text-align: center;
+}
+
+.time-img {
+    padding: 0 0.18rem;
+    box-sizing: border-box;
+    margin-bottom: 0.4rem;
+}
+
+.time-img>img {
+    height: 0.34rem;
+    width: 0.3rem;
+}
+
+.time-f {
+    margin-bottom: 0.4rem;
+    font-size: 0.32rem;
+}
+
+.jiacu {
+    font-size: 0.32rem;
+    font-weight: bold;
+}
+
+.time-du {
+    font-size: 0.36rem;
+}
+
+
+/* 24小时预报结束 */
+
+
+/* 每日天气开始 */
+
+.week-weather {
+    margin-top: 0.35rem;
+    padding: 0 0.24rem;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+.week-day {
+    margin-bottom: 0.3rem;
+}
+
+.week-day>.week-f {
+    font-size: 0.34rem;
+    margin-right: 2.3rem;
+}
+
+.week-img {
+    height: 0.34rem;
+    width: 0.34rem;
+    margin-right: 1.8rem;
+}
+
+.week-img>img {
+    width: 0.3rem;
+}
+
+.week-ff {
+    margin-right: 0.5rem;
+    font-size: 0.36rem;
+}
+
+.week-fff {
+    font-size: 0.36rem;
+    color: #adabf3;
+}
+
+
+/* 每日天气结束 */
+
+
+/* 生活指数部分开始 */
+
+.shzs-title {
+    padding: 0 0.3rem;
+    height: 1.05rem;
+    line-height: 1.05rem;
+    font-size: 0.4rem;
+    color: #fff;
+    /* background-color: blanchedalmond; */
+}
+
+.shzs-kapian {
+    width: 100%;
+    height: 2.85rem;
+    /* background-color: brown; */
+}
+
+.shzs-kapian-content {
+    width: 5.86rem;
+    height: 2.52rem;
+    background-color: #fff;
+    border-radius: 0.2rem 0.2rem 0.2rem 0.2rem;
+    margin: 0 auto;
+}
+
+.content-img {
+    padding: 0.85rem 0.35rem 0.8rem;
+    width: 1.5rem;
+    float: left;
+    box-sizing: border-box;
+}
+
+.content-img>img {
+    width: 0.8rem;
+}
+
+.content-font {
+    width: 4.3rem;
+    float: right;
+    padding-right: 0.24rem;
+    box-sizing: border-box;
+}
+
+.content-font>h3 {
+    color: #333333;
+    font-size: 0.32rem;
+    margin-top: 0.45rem;
+}
+
+.content-font>p {
+    margin-top: 0.12rem;
+    color: #b8b8b8;
+    font-size: 0.26rem;
+}
+
+
+/* 生活指数部分开始 */
+
+
+/* 客气质量开始 */
+
+.kqzl-title {
+    padding: 0 0.3rem;
+    height: 1.05rem;
+    line-height: 1.05rem;
+    font-size: 0.4rem;
+    color: #fff;
+    /* background-color: blanchedalmond; */
+}
+
+.jiantou {
+    margin-top: 0.2rem;
+    height: 0.45rem;
+    width: 100%;
+    padding: 0 0.3rem;
+    box-sizing: border-box;
+}
+
+.jiantou>img {
+    width: 0.54rem;
+    height: 0.41rem;
+    margin-left: 1.65rem;
+}
+
+.kuai {
+    width: 100%;
+    padding: 0 0.3rem;
+    box-sizing: border-box;
+    height: 0.32rem;
+    margin-bottom: 0.8rem;
+}
+
+.kuai-ul {
+    font-size: 0.2rem;
+    color: #fff;
+}
+
+.tuoyuan {
+    float: left;
+    text-align: center;
+    line-height: 0.3rem;
+}
+
+.tuoyuan:nth-child(1) {
+    height: 0.3rem;
+    width: 0.751rem;
+    border-radius: 0.15rem;
+    background-color: #5acb7b;
+}
+
+.tuoyuan:nth-child(2) {
+    height: 0.3rem;
+    width: 0.751rem;
+    border-radius: 0.15rem;
+    background-color: #a4d363;
+}
+
+.tuoyuan:nth-child(3) {
+    height: 0.3rem;
+    width: 0.751rem;
+    border-radius: 0.15rem;
+    background-color: #ffd255;
+}
+
+.tuoyuan:nth-child(4) {
+    height: 0.3rem;
+    width: 0.751rem;
+    border-radius: 0.15rem;
+    background-color: #fbb464;
+}
+
+.tuoyuan:nth-child(5) {
+    height: 0.3rem;
+    width: 1.52rem;
+    border-radius: 0.15rem;
+    background-color: #ef8659;
+}
+
+.tuoyuan:nth-child(6) {
+    height: 0.3rem;
+    width: 2.33rem;
+    border-radius: 0.15rem;
+    background-color: #f06163;
+}
+
+
+/* 客气质量结束 */
+
+
+/* 6963f1 adabf3 */
